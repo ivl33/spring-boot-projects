@@ -1,0 +1,5 @@
+person:
+ greeting: "Hello,"
+ farewell: "Goodbye,"
+ count: 4
+ myprop: "test"
