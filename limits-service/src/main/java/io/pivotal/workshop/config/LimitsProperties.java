@@ -1,8 +1,10 @@
 package io.pivotal.workshop.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.stereotype.Component;
 
+@RefreshScope
 @Component
 @ConfigurationProperties(prefix = "limits-service")
 public class LimitsProperties {
